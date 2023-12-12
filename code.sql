@@ -1,7 +1,7 @@
 --  Name DataBase : ajdar  --
 -- 
 /*
-conn(
+conn{inComputer}(
     URL = localhost ;
     Name = root ;
     PassWord = 12345 ;
@@ -22,14 +22,14 @@ CREATE TABLE a(NAME VARCHAR(255), a INT, b INT); CREATE TABLE s(
     ne VARCHAR(255),
     part VARCHAR(255),
     lang VARCHAR(255),
-    IO VARCHAR(255),
+    io VARCHAR(255),
     img VARCHAR(255),
     sale VARCHAR(255),
     des VARCHAR(255),
     ti VARCHAR(255)
 ); CREATE TABLE un(
-    NAME VARCHAR(300),
-    X VARCHAR(1000)
+    name VARCHAR(300),
+    x VARCHAR(1000)
 ); CREATE TABLE users(
     id INT,
     acc VARCHAR(255),
