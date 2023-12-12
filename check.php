@@ -142,7 +142,7 @@ function searchWord($array, $word) {
 <input type='hidden' id='sel' value='$na' name='na'>
 <input type='hidden' id='sel' value='paypal' name='w'>
 <button type='submit' name='ss'>
-<img src='asimg/paypalpal.png'>
+<img src='paypalpal.png'>
 </button>
  </form>
  <form action='payo.php' method='post'>
