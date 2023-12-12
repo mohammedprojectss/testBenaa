@@ -9,34 +9,36 @@ conn(
 )
 */
 -- UrlProject : localhost/server/ajdar/file.extension --
-create table a (name varchar(255),a int,b int);
-create table s (
-    id int , 
-    name varchar(255) , 
-    wn varchar(255) ,
-    email varchar(255),
-    command varchar(255) ,
-    info varchar(255)
-);
-create table t (
-id int ,
-na varchar(255),
-ne varchar(255),
-part varchar(255),
-lang varchar(255),
-io varchar(255),
-img varchar(255),
-sale varchar(255),
-des varchar(255),
-ti varchar(255)
-);
-create table un (
-    name varchar(300),
-    x varchar(1000)
-);
-create table users (
-id int ,
-acc varchar(255),
-pass varchar(255),
-c varchar(1000)
+CREATE TABLE a(NAME VARCHAR(255), a INT, b INT); CREATE TABLE s(
+    id INT,
+    NAME VARCHAR(255),
+    wn VARCHAR(255),
+    email VARCHAR(255),
+    command VARCHAR(255),
+    info VARCHAR(255)
+); CREATE TABLE t(
+    id INT,
+    na VARCHAR(255),
+    ne VARCHAR(255),
+    part VARCHAR(255),
+    lang VARCHAR(255),
+    IO VARCHAR(255),
+    img VARCHAR(255),
+    sale VARCHAR(255),
+    des VARCHAR(255),
+    ti VARCHAR(255)
+); CREATE TABLE un(
+    NAME VARCHAR(300),
+    X VARCHAR(1000)
+); CREATE TABLE users(
+    id INT,
+    acc VARCHAR(255),
+    pass VARCHAR(255),
+    c VARCHAR(1000)
+); INSERT INTO users
+VALUES(
+    1,
+    'admin@gmail.com',
+    'admin1234',
+    ''
 );
