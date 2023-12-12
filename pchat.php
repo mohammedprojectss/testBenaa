@@ -1,5 +1,7 @@
 <?php
 $conn = mysqli_connect('localhost','root','12345','ajdar');
+error_reporting(E_ERROR | E_PARSE);
+echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
 ?>
  <?php
   if(isset($_POST['sxx'])){
